@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+.dragging {
+    opacity: 0.5;
+}
